@@ -22,7 +22,7 @@ func TestNextToken(t *testing.T) {
 	tests := []struct {
         expectedType    token.TokenType
         expectedLiteral string
-    }{
+    } {
         {token.LET, "let"},
         {token.IDENT, "five"},
         {token.ASSIGN, "="},
@@ -60,7 +60,7 @@ func TestNextToken(t *testing.T) {
         {token.RPAREN, ")"},
         {token.SEMICOLON, ";"},
         {token.EOF, ""},
-    }
+      }
 
 	l := New(input)
 

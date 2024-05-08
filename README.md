@@ -1,1 +1,0 @@
-# interpreter-in-go
